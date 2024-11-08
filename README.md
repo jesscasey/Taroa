@@ -10,4 +10,8 @@ readings, discover the meaning of each card, search for specific cards, and
 more.
 
 This document is a work in progress and will be updated as functionality is 
-added to the application. 
+added to the application.
+
+## How to run
+It's simple! Just navigate to the project folder in your preferred terminal 
+and type `flask run`.
