@@ -13,5 +13,9 @@ def directory():
 def reading():
     return render_template('tarot/reading.html')
 
+@app.route("/results")
+def results():
+    return render_template('tarot/results.html')
+
 if __name__ == '__main__':
     app.run()
