@@ -13,10 +13,6 @@ def directory():
 def reading():
     return render_template('tarot/reading.html')
 
-@app.route("/results")
-def results():
-    return render_template('tarot/results.html')
-
 @app.errorhandler(404)
 def not_found(error):
     return render_template('errors/404.html'), 404
